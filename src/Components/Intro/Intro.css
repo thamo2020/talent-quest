@@ -1,0 +1,40 @@
+.header {
+   height: 100vh;
+   background-image: url('../../Assets/Images/background.png');
+   display: flex;
+ 
+}
+.i-left{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+}
+
+.i-left >:nth-child(1) {
+    font-size: 50px;
+    color: var(--grey);
+    padding-top: 10rem;
+}
+.i-left >:nth-child(2) {
+    font-size: 100px;
+    color: var(--black);  
+    display: block;
+    padding-top: 0.1rem;
+}
+.i-left >:nth-child(2):after {
+    content: "Quest";
+    color: var(--Orange);
+  }
+.i-left >:nth-child(3) {
+    font-size: 30px;
+    color: var(--gray);  
+}
+.i-right {
+  flex: 1;  
+  position: relative;
+}
+.banner {
+  width: 850px;
+  height: 700px;
+}

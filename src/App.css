@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+:root 
+{
+  --black: #000000;
+  --grey:  #1E1E1E;
+  --Orange: #FC5C02;
+  --btnColorLight:  linear-gradient(132deg, #F65C06 0%, #B65823 100%);
+  --btnShadowLight:  0px 4px 4px 0px rgba(0, 0, 0, 0.25), 4px 4px 39px 0px #8E3A09;
+  --orangeLight:rgba(252, 92, 2, 0.61);
+  --jobCardShadowLight:4px 4px 4px 0px rgba(0, 0, 0, 0.25), -4px -4px 62px 0px rgba(56, 54, 54, 0.25);
+  --white:#FFFFFF;
+  --btnShadowDark:0px 4px 4px 0px rgba(0, 0, 0, 0.25), 4px 4px 41px 0px #9A4718;
+  --jobCardShadowDark:4px 4px 20px 0px #FFF, -4px -4px 24px 0px rgba(253, 253, 253, 0.69);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App
+{
+  padding: 0.5rem 3.5rem;
+  overflow: hidden;
+  color: var(--black);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn-nav {
+/* width: 93px;
+height: 35px; */
+flex-shrink: 0;
+border-radius: 20px;
+background: linear-gradient(132deg, #F65C06 0%, #B65823 100%);
+box-shadow: var(--btnShadowDark);
+color: var(--white);
+border: none;
+margin: 1rem;
+padding: 1rem 1rem 1rem 1rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-nav:hover {
+  cursor: pointer;
+  background:var(--white);
+  color: var(--Orange);
+  border: 1px solid var(--Orange);
 }
