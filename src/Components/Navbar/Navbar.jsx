@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Navbar.css";
+import Toggle from "../Toggle/Toggle";
 // import logo_light from "../../Assets/Images/logo_lighbg.png";
 
 const Navbar = () => {
@@ -10,7 +11,7 @@ const Navbar = () => {
             TalenQuest
             {/* <img className='logo-light' src={logo_light} alt="" /> */}
         </div>
-            <span>Toggle</span>
+            <Toggle />
        
         </div>
         <div className="n-right">

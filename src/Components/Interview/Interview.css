@@ -1,0 +1,122 @@
+.interview-sec {
+    display: flex;
+}
+
+.in-left {
+    flex: 1;
+}
+
+.in-right {
+    flex: 1;
+}
+
+.int-para {
+    display: flex;
+    width: 629px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: "black";
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 4rem;
+}
+.intButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.int-btn {
+    width: 442px;
+    height: 102px;
+    flex-shrink: 0; 
+    border-radius: 41px;
+    background: linear-gradient(132deg, #F65C06 0%, #B65823 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 4px 4px 39px 0px #8E3A09;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+}
+/*desktops - higher resolution*/
+@media (min-width: 1281px)
+{
+
+}
+
+/*laptops, desktops*/
+@media (min-width: 1025px) and (max-width: 1280px) 
+{
+
+}
+/*tablets, ipads (portrait)*/
+@media (min-width: 768px) and (max-width: 1024px)
+{
+.int-image {
+    padding-right: 70px;
+    width: 450px;
+    height: 400px;
+}
+.int-para {
+    width: 300px;
+    font-size: 22px;
+}
+.int-btn {
+    width: 300px;
+    height: 70px;
+}
+}
+/*tablets, ipads (landscape)*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape)
+{
+.int-image {
+    margin-top: 15rem;
+    width: 300px;
+}
+.int-para {
+    width: 300px;
+    font-size: 22px;
+}
+.int-btn {
+    width: 300px;
+    height: 100px;
+}
+}
+/*low resolution tablets, mobiles (landscape)*/
+@media (min-width: 481px) and (max-width: 767px)
+{
+.int-image {
+    margin-top: 15rem;
+    width: 300px;
+}
+.int-para {
+    width: 300px;
+    font-size: 22px;
+}
+.int-btn {
+    width: 300px;
+    height: 100px;
+}
+}
+/*smartphones mobiles (portrait)*/
+@media (min-width: 320px) and (max-width: 480px)
+{
+    .int-image {
+    margin-top: 15rem;
+    width: 300px;
+}
+.int-para {
+    width: 300px;
+    font-size: 22px;
+}
+.int-btn {
+    width: 300px;
+    height: 80px;
+}
+}
