@@ -1,0 +1,32 @@
+.n-wrapper {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.n-left {
+    flex: 1;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+.n-right {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.n-list {
+    flex: 10;
+}
+.n-list > ul {
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+    list-style: none;
+    font-size: 14px;
+}
+.n-list > ul>li:hover {
+    cursor: pointer;
+    color: var(--Orange);
+}
