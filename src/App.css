@@ -5,7 +5,7 @@
   --Orange: #FC5C02;
   --btnColorLight:  linear-gradient(132deg, #F65C06 0%, #B65823 100%);
   --btnShadowLight:  0px 4px 4px 0px rgba(0, 0, 0, 0.25), 4px 4px 39px 0px #8E3A09;
-  --orangeLight:rgba(252, 92, 2, 0.61);
+  --orangeLight:rgba(245, 169, 125, 0.753);
   --jobCardShadowLight:4px 4px 4px 0px rgba(0, 0, 0, 0.25), -4px -4px 62px 0px rgba(56, 54, 54, 0.25);
   --white:#FFFFFF;
   --btnShadowDark:0px 4px 4px 0px rgba(0, 0, 0, 0.25), 4px 4px 41px 0px #9A4718;
@@ -36,4 +36,14 @@ padding: 1rem 1rem 1rem 1rem;
   background:var(--white);
   color: var(--Orange);
   border: 1px solid var(--Orange);
+}
+
+.first-heading {
+  margin-top: 5rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-weight: bold;
+  font-size: 3rem;
+  
 }

@@ -1,0 +1,143 @@
+.t-section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-center;
+    flex-direction: column;
+}
+
+.t-header {
+    color: "black";
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.t-header:after {
+    content: "Think";
+    color: var(--Orange);
+
+}
+.section {
+    background: url("../../Assets/Images/background.png");
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+.card
+{
+    background-color:  rgba(255, 255, 255, 0.05) !important;
+    position: relative;
+    width: 300px;
+    height: 450px;
+    background: rgba(255, 255, 255, 0.05);
+    margin: 20px;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+
+.card-body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.card:hover .card-body {
+    opacity: 1;
+    transform: translateY(-20px);
+    color: var(--Orange);
+  }
+
+.imgBx {
+    position: relative;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 10px solid black(0, 0,0, 0.25);
+
+}
+
+.imgBx img {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.contentBx{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 1rem;
+}
+.card-title {
+    color: "black";
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+    margin: 20px 0 0 0;
+    font-family: poppins;
+    
+}
+
+.contentBx >:nth-child(2){
+    color: "black";
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    margin: 10px 0 10px;
+    line-height: 1.1em;
+    font-family: poppins;
+    
+}
+
+.contentBx >:nth-child(3) {
+    font-size: 10px;
+    font-weight: 300;
+    text-transform: initial;
+    color: "black";
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    line-height: 1.1em;
+    font-family: poppins;
+
+}
+.text-white {
+    color: white;
+}
+
+
