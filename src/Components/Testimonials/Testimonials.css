@@ -20,7 +20,7 @@
 }
 
 .t-header:after {
-    content: "Think";
+    content: "Think!";
     color: var(--Orange);
 
 }

@@ -19,7 +19,7 @@ const About = () => {
  
   return (
     <div>
-       <span className='a-heading'>Do yo know About &nbsp;</span>
+       <span className='a-heading'>Do you know About &nbsp;</span>
       <div className="about-sec row">
         <motion.div 
         initial="hidden" 
