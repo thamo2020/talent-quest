@@ -2,31 +2,88 @@
     height: 10vh;
     display: flex;
     justify-content: space-between;
-}
-.n-left {
+  }
+  
+  .n-left {
     flex: 1;
     align-items: center;
     display: flex;
     gap: 2rem;
-}
-.n-right {
+  }
+  
+  .n-right {
     display: flex;
     flex: 1;
     align-items: center;
-    justify-content: center;
-}
-
-.n-list {
+    justify-content: flex-end;
+  }
+  
+  .n-list {
     flex: 10;
-}
-.n-list > ul {
+  }
+  
+  .n-list > ul {
     display: flex;
     gap: 2rem;
     margin-right: 4rem;
     list-style: none;
     font-size: 14px;
-}
-.n-list > ul>li:hover {
+    margin: 0.5rem 0 0 0;
+  }
+  
+  .n-list > ul > li {
+    display: flex;
+    align-items: center;
+  }
+  
+  .n-list > ul > li:hover {
     cursor: pointer;
     color: var(--Orange);
-}
+  }
+  
+  .n-list > ul > li:last-child {
+    margin-left: 2rem;
+  }
+  
+  .button,
+  .btn-nav {
+    font-size: 14px;
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+  }
+  
+  .hamburger-menu {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .n-right ul {
+      display: none;
+    }
+  
+    .n-right.active ul {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      background-color: #f8f8f8;
+      padding: 1rem;
+    }
+  
+    .n-right.active .n-list ul > li {
+      display: none;
+    }
+    
+    .n-right.active .n-list ul > li:nth-last-child(-n+2) {
+      display: flex;
+      margin-top: 0.5rem;
+    }
+    .n-right.active .n-list ul > li:first-child {
+        margin-top: 1rem; /* Added margin-top to the first child */
+      }
+    .hamburger-menu {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      cursor: pointer;
+    }
+  }

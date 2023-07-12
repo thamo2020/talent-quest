@@ -14,7 +14,7 @@
     
 }
 .j-header:after {
-    content: "Jobs";
+    content: "Jobs...";
     color: var(--Orange);
 
 }
