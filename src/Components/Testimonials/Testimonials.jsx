@@ -30,7 +30,7 @@ const Testimonials = () => {
                   <img src={photo1} style={{height: "150px" }} alt="" />
                 </div>
                 <div className="contentBx">
-                  <h3 className="card-title">Someone Famous</h3>
+                  <h3 className="card-title">Mary Johnson</h3>
                   <span>Creative Designer</span>
                   <span>"This recruitment agency exceeded my expectations. Their personalized approach and attention to my career needs were impressive. I found the perfect job that aligns with my skills and aspirations. Highly recommended!"</span>
                 </div>
@@ -49,8 +49,8 @@ const Testimonials = () => {
                   <img src={photo2} style={{height: "150px" }} alt="" />
                 </div>
                 <div className="contentBx">
-                  <h3 className="card-title">Someone Famous</h3>
-                  <span>Creative Designer</span>
+                  <h3 className="card-title">Mary Johnson</h3>
+                  <span>Manager</span>
                   <span>"This recruitment agency exceeded my expectations. Their personalized approach and attention to my career needs were impressive. I found the perfect job that aligns with my skills and aspirations. Highly recommended!"</span>
                 </div>
               </div>
@@ -68,7 +68,7 @@ const Testimonials = () => {
                   <img src={photo3} style={{height: "150px" }} alt="" />
                 </div>
                 <div className="contentBx">
-                  <h3 className="card-title">Someone Famous</h3>
+                  <h3 className="card-title">Mary Johnson</h3>
                   <span>Creative Designer</span>
                   <span>"This recruitment agency exceeded my expectations. Their personalized approach and attention to my career needs were impressive. I found the perfect job that aligns with my skills and aspirations. Highly recommended!"</span>
                 </div>

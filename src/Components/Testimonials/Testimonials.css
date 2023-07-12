@@ -7,7 +7,6 @@
 
 .t-header {
     color: "black";
-    font-family: Inter;
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
@@ -106,7 +105,6 @@
     text-align: center;
     justify-content: center;
     margin: 20px 0 0 0;
-    font-family: poppins;
     
 }
 
@@ -118,7 +116,6 @@
     text-align: center;
     margin: 10px 0 10px;
     line-height: 1.1em;
-    font-family: poppins;
     
 }
 
@@ -133,7 +130,6 @@
     text-align: center;
     margin: 10px 10px 10px 10px;
     line-height: 1.1em;
-    font-family: poppins;
 
 }
 .text-white {
