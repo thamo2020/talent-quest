@@ -45,7 +45,7 @@ const Contact = () => {
             <span style={{color: darkMode?'white': ''}}> 1256 234 123 </span><br />
             </div>
             <div className="address col">
-            <span style={{color: darkMode?'white': ''}}><Home color="#FC5C02" size={"1.2rem"} /> &nbsp; Come to us</span><br />
+            <span style={{color: darkMode?'white': ''}}><Home color="#FC5C02" size={"1.2rem"} /> &nbsp; Come to Us</span><br />
             <span style={{color: darkMode?'white': ''}}>No 123, </span><br />
             <span style={{color: darkMode?'white': ''}}>Abd rd,</span><br />
             <span style={{color: darkMode?'white': ''}}>Colombo 3</span>

@@ -17,7 +17,6 @@
   .a-heading {
     
     color: "black";
-    font-family: Inter;
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
@@ -46,7 +45,6 @@
 .a-para {
     color: "black";
     text-align: justify;
-    font-family: Inter;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
